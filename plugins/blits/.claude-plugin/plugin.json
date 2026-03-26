@@ -1,0 +1,9 @@
+{
+  "name": "blits",
+  "description": "A collection of skills for working with Lightning JS Blits projects, including migration, scaffolding, and more.",
+  "version": "1.0.0",
+  "author": {
+    "name": "MLangendijk"
+  },
+  "repository": "https://github.com/MLangendijk/skills"
+}

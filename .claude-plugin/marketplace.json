@@ -1,0 +1,18 @@
+{
+  "name": "skills",
+  "owner": {
+    "name": "MLangendijk"
+  },
+  "plugins": [
+    {
+      "name": "blits",
+      "source": {
+        "source": "git-subdir",
+        "url": "git@github.com:MLangendijk/skills.git",
+        "path": "plugins/blits"
+      },
+      "description": "A collection of skills for working with Lightning JS Blits projects, including migration, scaffolding, and more.",
+      "version": "1.0.0"
+    }
+  ]
+}
