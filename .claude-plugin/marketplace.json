@@ -23,6 +23,16 @@
       },
       "description": "Security skills for detecting supply chain compromises, vulnerable dependencies, and other CVEs in your project.",
       "version": "1.0.0"
+    },
+    {
+      "name": "web",
+      "source": {
+        "source": "git-subdir",
+        "url": "git@github.com:MLangendijk/skills.git",
+        "path": "plugins/web"
+      },
+      "description": "Skills for building and improving web front-ends, including WCAG accessibility auditing and fixes.",
+      "version": "1.0.0"
     }
   ]
 }
