@@ -28,6 +28,7 @@ A collection of Claude Code plugins and skills by MLangendijk.
 |--------|-------------|
 | `blits` | A collection of skills for working with Lightning JS Blits projects, including migration, scaffolding, and more. |
 | `securitypatches` | Security skills for detecting supply chain compromises, vulnerable dependencies, and other CVEs in your project. |
+| `web` | Skills for building and improving web front-ends, including WCAG accessibility auditing and fixes. |
 
 ### blits
 
@@ -44,3 +45,11 @@ Install with `/plugin install securitypatches@skills`
 **Skills included:**
 
 - **tanstack-supply-chain** — Detect the Mini Shai-Hulud supply chain compromise (CVE-2026-45321) affecting @tanstack/*, @mistralai/*, @uipath/*, @squawk/*, and 160+ other npm packages. Scans lockfiles, highlights impacted dependencies, and proposes safe version pins.
+
+### web
+
+Install with `/plugin install web@skills`
+
+**Skills included:**
+
+- **wcag-audit** — Audit a repository for WCAG 2.2 conformance at a chosen level (A, AA, or AAA), report the status per success criterion, then interactively implement the fixes you select — alt text, form labels, color contrast, keyboard access, focus, landmarks, ARIA, and more.
